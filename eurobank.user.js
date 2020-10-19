@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Eurobank Payroll
 // @namespace    http://tampermonkey.net/
-// @version      1.0.1
+// @version      1.0.2
 // @description  Eurobank payroll Helper
 // @author       htsachakis
 // @match        https://services.eurobank.gr/ebanking/cashmanagement/epayroll.faces
@@ -95,7 +95,7 @@
         var payroll_data = document.createElement("textarea");
         payroll_data.setAttribute("id", "payroll_data");
         payroll_data.setAttribute("style", "width:800px;height:500px;margin:50px;");
-        payroll_data.setAttribute("placeholder", 'You need to add data in JSON format ,  Sample Data : {{"IBAN" : "YOURIBANAHERE", "pay" : "payamounthere"}, {"IBAN" : "GR1234567894646435" , "pay": "400.00"}');
+        payroll_data.setAttribute("placeholder", 'You need to add data in JSON format ,  Sample Data : {"0" : {"IBAN" : "YOURIBANAHERE", "pay" : "payamounthere"}, "1" : {"IBAN" : "GR1234567894646435" , "pay": "400.00"}');
         modal.appendChild(payroll_data);
         //create buttons container
         var buttons = document.createElement("div");

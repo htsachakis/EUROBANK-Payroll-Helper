@@ -27,3 +27,8 @@ Example
 7. "Step 2 - Run" Just press it to run the script and fill the form .
 
 8. Check if everything is correct and proceed as you normaly do . 
+
+
+### Disclaimer
+This script created by me for me , and i'm not responsible if anything go wrong . This script don't upload any data to anywhere , all the process is done locally to your computer.
+# Use it your own risk

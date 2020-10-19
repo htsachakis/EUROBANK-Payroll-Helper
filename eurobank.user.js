@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Eurobank Payroll
 // @namespace    http://tampermonkey.net/
-// @version      1.0.2
+// @version      1.0.3
 // @description  Eurobank payroll Helper
 // @author       htsachakis
 // @match        https://services.eurobank.gr/ebanking/cashmanagement/epayroll.faces
@@ -83,7 +83,7 @@
         // Button for add data
         var button = document.createElement("div");
         button.innerHTML = "Step 1 - Add Data";
-        button.setAttribute("style", "background-color: black; color: white; display: block; padding: 10px; text-align: center;");
+        button.setAttribute("style", "background-color: black; color: white; display: block; padding: 10px; text-align: center; margin:5px;");
 
 
         //create the modal window
@@ -149,7 +149,7 @@
         // Button for add data
         var button = document.createElement("div");
         button.innerHTML = "Step 2 - Run";
-        button.setAttribute("style", "background-color: black; color: white; display: block; padding: 10px; text-align: center;");
+        button.setAttribute("style", "background-color: black; color: white; display: block; padding: 10px; text-align: center; margin:5px;");
 
         // on click for add data button
         button.addEventListener ("click", function() {
@@ -168,7 +168,7 @@
         // Button for add data
         var button = document.createElement("div");
         button.innerHTML = "Step 1.5 - Clear Form";
-        button.setAttribute("style", "background-color: black; color: white; display: block; padding: 10px; text-align: center;");
+        button.setAttribute("style", "background-color: black; color: white; display: block; padding: 10px; text-align: center; margin:5px;");
 
         // on click for add data button
         button.addEventListener ("click", function() {

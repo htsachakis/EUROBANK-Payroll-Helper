@@ -12,6 +12,8 @@ For Firefox install [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addo
 
 4. There you will see 3 new buttons ("Step 1 - Add Data" , "Step 1.5 - Clear Form" , "Step 2 - Run")
 
+![buttons](https://github.com/htsachakis/EUROBANK-Payroll-Helper/raw/main/buttons.png)
+
 5. "Step 1 - Add Data" when you click it it will apear a new input area so you can put your data in JSON format .
 Example
 ```JSON
@@ -22,6 +24,9 @@ Example
   "3" : {"IBAN" : "GR1902601080000750200595168" , "pay" : "400,55"}
 }
 ```
+And press "Upload Data"
+> You must have store all the accounts in the site before use this script!!
+
 6. "Step 1.5" - Clear Form" if the form have data and you need to clear it just press this button .
 
 7. "Step 2 - Run" Just press it to run the script and fill the form .

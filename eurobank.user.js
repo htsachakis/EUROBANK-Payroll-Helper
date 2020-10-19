@@ -83,7 +83,7 @@
         // Button for add data
         var button = document.createElement("div");
         button.innerHTML = "Step 1 - Add Data";
-        button.setAttribute("style", "background-color: black; color: white; display: block; padding: 10px; text-align: center; margin:5px;");
+        button.setAttribute("style", "background-color: black; color: white; display: block; padding: 10px; text-align: center; margin:5px;cursor:pointer;");
 
 
         //create the modal window
@@ -149,7 +149,7 @@
         // Button for add data
         var button = document.createElement("div");
         button.innerHTML = "Step 2 - Run";
-        button.setAttribute("style", "background-color: black; color: white; display: block; padding: 10px; text-align: center; margin:5px;");
+        button.setAttribute("style", "background-color: black; color: white; display: block; padding: 10px; text-align: center; margin:5px;cursor:pointer;");
 
         // on click for add data button
         button.addEventListener ("click", function() {
@@ -168,7 +168,7 @@
         // Button for add data
         var button = document.createElement("div");
         button.innerHTML = "Step 1.5 - Clear Form";
-        button.setAttribute("style", "background-color: black; color: white; display: block; padding: 10px; text-align: center; margin:5px;");
+        button.setAttribute("style", "background-color: black; color: white; display: block; padding: 10px; text-align: center; margin:5px;cursor:pointer;");
 
         // on click for add data button
         button.addEventListener ("click", function() {
